@@ -17,6 +17,8 @@ public class SwitchBrowserTabAndWindow {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		
+		//This will open 2 tabs or windows together.
 		driver.switchTo().newWindow(WindowType.TAB);
 		// driver.switchTo().newWindow(WindowType.WINDOW);
 
